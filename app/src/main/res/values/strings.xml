@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PostsAndroidApp</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="posts">Posts</string>
+    <string name="add">add</string>
+
+
+    <string name="please_make_sure_you_are_connected_to_the_internet">يرجى التأكد من إتصالك بالإنترنت</string>
+    <string name="there_is_some_problem">يوجد هناك مشكلة ما..</string>
+    <string name="please_login_again">يرجى اعادة تسجيل الدخول</string>
+    <string name="must_select_at_least_one_item">يجب اختيار عنصر واحد على الأقل</string>
+    <string name="must_select_one_item_only">يجب اختيار عنصر واحد فقط</string>
+    <string name="delete_done">تم الحدف بنجاح</string>
+    <string name="add_post">أضف عنوان البوست</string>
+    <string name="send">ارسال</string>
+    <string name="add_done">تم الاضافة بنجاح</string>
+    <string name="back">رجوع</string>
+    <string name="post_details">تفاصيل البوست</string>
+    <string name="must_internet_to_remove">يجب توفر الانترنت للحدف من السيرفر</string>
+    <string name="must_internet_to_add">يجب توفر الانترنت للاضافة الى السيرفر</string>
+
+
+</resources>

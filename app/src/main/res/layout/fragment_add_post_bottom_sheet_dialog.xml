@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+ 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/root_ConstraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_solid_light_black_with_corners_lt_rt_20"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        tools:context=".view.bottomsheets.addpost.AddPostBottomSheetDialogFragment"
+        tools:layoutDirection="rtl">
+
+
+        <TextView
+            android:id="@+id/addEvaluate_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/add_post"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:layout_marginTop="50dp"
+            android:id="@+id/title_AppCompatEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_solid_blue_without_corners_28"
+            android:gravity="start"
+            android:minLines="1"
+            android:padding="10dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/addEvaluate_TextView" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/send_AppCompatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            android:text="@string/send"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_AppCompatEditText" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
